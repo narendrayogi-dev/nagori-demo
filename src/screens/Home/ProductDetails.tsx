@@ -1,4 +1,4 @@
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, ScrollView, FlatList } from 'react-native'
 import React from 'react'
 import CurvedHeader from '../../components/CurvedHeader'
 import { StyleSheet, UnistylesRuntime, useUnistyles } from 'react-native-unistyles'
@@ -10,11 +10,14 @@ import { moderateScale, scale } from '../../utils/responsive'
 import { goBack } from '../../utils/navigationUtils'
 import ProductImageCarousel from '../../components/ProductImageCarousel'
 import IncrementCounter from '../../components/IncrementCounter'
+import ProductDescriptionTabs from '../../components/Product/ProductDescriptionTabs'
+import AnimatedButton from '../../components/AnimatedCustomButton'
+import ProductCard from '../../components/ProductCard'
 
 const ProductDetails = () => {
     const { theme } = useUnistyles()
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <CurvedHeader height={UnistylesRuntime.screen.height * 0.4}>
                 <View style={styles.headerRow}>
                     <GradientBox
@@ -68,45 +71,79 @@ const ProductDetails = () => {
                     </View>
                 </View>
                 <Text style={styles.productName}>5 Gram Gold Ring</Text>
-                <View style={[styles.priceConatiner, {
-                    justifyContent: 'flex-start',
-                    gap: 10,
-                }]}>
-                    <GradientText
-                        style={styles.priceText}
-                        numberOfLines={1}
-                        ellipsizeMode="tail"
-                    >
-                        ₹100
-                    </GradientText>
+                <View style={{
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center'
+                }}>
+                    <View>
+                        <View style={[styles.priceConatiner, {
+                            justifyContent: 'flex-start',
+                            gap: 10,
+                        }]}>
+                            <GradientText
+                                style={styles.priceText}
+                                numberOfLines={1}
+                                ellipsizeMode="tail"
+                            >
+                                ₹100
+                            </GradientText>
 
-                    {/* {originalPrice && ( */}
-                    <GradientText
-                        colors={['#CC9B18', '#AB6005', '#AB6005']}
-                        style={[styles.priceText, styles.oldPrice]}
-                        numberOfLines={1}
-                        ellipsizeMode="tail"
-                    >
-                        ₹{1000}
-                    </GradientText>
-                    {/* )} */}
+                            {/* {originalPrice && ( */}
+                            <GradientText
+                                colors={['#CC9B18', '#AB6005', '#AB6005']}
+                                style={[styles.priceText, styles.oldPrice]}
+                                numberOfLines={1}
+                                ellipsizeMode="tail"
+                            >
+                                ₹{1000}
+                            </GradientText>
+                            {/* )} */}
+                        </View>
+                        <Text style={styles.skuText}>SKU: ER-8521</Text>
+                    </View>
+                    <IncrementCounter />
+
                 </View>
-                <Text style={styles.skuText}>SKU: ER-8521</Text>
+
             </View>
-<IncrementCounter onChange={(val)=>{
-    console.log(val, "value here");
-    
-}}/>
-        </View>
+
+
+            <ProductDescriptionTabs />
+
+            <AnimatedButton title='Add to cart' leftIcon={IMAGES.cart} />
+
+            <GradientText style={styles.relatedProductText}>Related Products</GradientText>
+
+             <FlatList
+                data={[1, 2, 4]}
+                renderItem={(props) => (<ProductCard {...props}
+                    name="5 Gram Gold Earrings"
+                    price="₹54,000000"
+                    originalPrice="₹58,050"
+                    rating={4.7}
+                    discount={20}
+
+                />)}
+                numColumns={2}
+                columnWrapperStyle={{
+                    justifyContent: 'space-between',
+                    margin: 8,
+                }}
+                contentContainerStyle={{
+                }}
+            />
+
+        </ScrollView>
     )
 }
 
 export default ProductDetails
 
 const styles = StyleSheet.create((theme, rt) => ({
-    container:{
-        flex:1, 
-        backgroundColor:theme?.colors?.background
+    container: {
+        flex: 1,
+        backgroundColor: theme?.colors?.background
     },
     headerRow: {
         flexDirection: 'row',
@@ -158,7 +195,7 @@ const styles = StyleSheet.create((theme, rt) => ({
     priceConatiner: {
         flexDirection: 'row',
         justifyContent: "space-between",
-        alignItems:'center'
+        alignItems: 'center'
     },
     productDetails: {
         paddingHorizontal: 10,
@@ -176,10 +213,19 @@ const styles = StyleSheet.create((theme, rt) => ({
     oldPrice: {
         textDecorationLine: 'line-through',
         opacity: 0.5,
-        fontSize:moderateScale(15)
+        fontSize: moderateScale(15)
     },
-    skuText:{
+    skuText: {
+        fontFamily: FONT_FAMILY.Medium,
+        fontSize: moderateScale(14)
+    },
+    productDesContainer: {
+
+    }, 
+    relatedProductText:{
+        marginLeft:8, 
+        marginTop:moderateScale(15),
         fontFamily:FONT_FAMILY.Medium, 
-        fontSize:moderateScale(14)
+        fontSize:moderateScale(20)
     }
 }))
