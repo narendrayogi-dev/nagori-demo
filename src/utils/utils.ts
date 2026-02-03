@@ -71,5 +71,6 @@ export type RootStackParamList = {
   ResetPassword: resetPasswodParams;
   Home: undefined;
   ProductListing:PorductListingParams;
-  ProductDetails:undefined
+  ProductDetails:undefined;
+  MyCart:undefined
 };

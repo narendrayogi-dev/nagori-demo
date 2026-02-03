@@ -5,6 +5,7 @@ import HomeScreen from '../screens/Home/HomeScreen';
 import BottomTabNavigator from './BottomTabNavigator';
 import ProductListing from '../screens/Home/ProductListing';
 import ProductDetails from '../screens/Home/ProductDetails';
+import MyCart from '../components/MyCart';
 
 
 const Stack =createNativeStackNavigator();
@@ -20,6 +21,7 @@ const AppNavigator = () => {
         <Stack.Screen name='Home' component={HomeScreen}/>
         <Stack.Screen name='ProductListing' component={ProductListing}/>
         <Stack.Screen name='ProductDetails' component={ProductDetails}/>
+        <Stack.Screen name='MyCart' component={MyCart}/>
     </Stack.Navigator>
   )
 }

@@ -108,7 +108,7 @@ const jwellaryFocousedData: jwellaryFocousedDataItem[] = [
 
 const HomeScreen = () => {
     const [category, setCategory] = useState<'male' | 'female'>('male');
-const {theme} = useUnistyles()
+    const { theme } = useUnistyles()
     const isMale = category === 'male';
     const isFemale = category === 'female';
 
@@ -124,7 +124,7 @@ const {theme} = useUnistyles()
             return
         }
         navigate('ProductListing', {
-            categoryId, 
+            categoryId,
             categoryName
         })
     }
@@ -194,7 +194,7 @@ const {theme} = useUnistyles()
                         <TouchableOpacity>
                             <Image source={IMAGES.bell} style={styles.rightIcon} />
                         </TouchableOpacity>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => { navigate('MyCart') }}>
                             <Image source={IMAGES.cart} style={styles.rightIcon} />
                         </TouchableOpacity>
                     </View>

@@ -13,6 +13,7 @@ import IncrementCounter from '../../components/IncrementCounter'
 import ProductDescriptionTabs from '../../components/Product/ProductDescriptionTabs'
 import AnimatedButton from '../../components/AnimatedCustomButton'
 import ProductCard from '../../components/ProductCard'
+import WishlistHeart from '../../components/WishlistHeart'
 
 const ProductDetails = () => {
     const { theme } = useUnistyles()
@@ -36,9 +37,9 @@ const ProductDetails = () => {
                     </GradientBox>
                     <GradientText style={styles.gradientText}>Woman Ring</GradientText>
                     <View style={styles.rightContainer}>
-                        <View style={styles.iconWrapper}>
-                            <MaterialDesignIcons name='heart-outline' color={"#fff"} size={22} />
-                        </View>
+                       <WishlistHeart isActive={false} productId='123'  onToggle={()=>{}} onSync={()=>{
+                        
+                       }}/>
                         <View style={styles.iconWrapper}>
                             <MaterialDesignIcons name='share-circle' color={"#fff"} size={22} />
                         </View>

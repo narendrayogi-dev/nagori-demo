@@ -6,6 +6,7 @@ import { moderateScale } from '../utils/responsive';
 import GradientText from './GradientText';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
 import { navigate } from '../utils/navigationUtils';
+import WishlistHeart from './WishlistHeart';
 
 /* ===================== TYPES ===================== */
 
@@ -33,7 +34,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
         }}>
             <TouchableOpacity style={styles.wishListContainer}
             >
-<MaterialDesignIcons name='heart-outline' size={20} color={"#AA826D"}/>
+                <WishlistHeart  productId='demo' isActive={false} onToggle={()=>{
+
+                }} onSync={()=>{
+
+                }}/>
             </TouchableOpacity>
             <Image
                 source={
