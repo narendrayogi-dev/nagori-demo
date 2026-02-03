@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity } from 'react-native';
 import { StyleSheet } from 'react-native-unistyles';
 import debounce from 'lodash.debounce';
 import GradientBox from './Home/GradientBox';
+import { FONT_FAMILY } from '../utils/utils';
 
 type IncrementCounterProps = {
     value?: number;
@@ -68,20 +69,27 @@ const IncrementCounter: React.FC<IncrementCounterProps> = ({
             <Text style={styles.value}>{currentValue}</Text>
 
             {/* -------- INCREMENT (GRADIENT) -------- */}
+            <GradientBox
+                style={[
+                    styles.circleButton,
+                    currentValue >= max && styles.disabled,
+                ]}
+            >
             <TouchableOpacity
                 disabled={currentValue >= max}
                 onPress={increment}
+                style={{
+                   width: SIZE,
+        height: SIZE,
+        borderRadius: SIZE / 2,
+        justifyContent:'center', 
+        alignItems:'center'
+                }}
                 activeOpacity={0.8}
             >
-                <GradientBox
-                    style={[
-                        styles.circleButton,
-                        currentValue >= max && styles.disabled,
-                    ]}
-                >
                     <Text style={styles.symbolWhite}>+</Text>
-                </GradientBox>
             </TouchableOpacity>
+                </GradientBox>
         </View>
     );
 };
@@ -118,6 +126,7 @@ const styles = StyleSheet.create(() => ({
 
     value: {
         minWidth: 30,
+        fontFamily:FONT_FAMILY.Bold, 
         textAlign: 'center',
         fontSize: 14,
         fontWeight: '500',
