@@ -10,7 +10,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StyleSheet } from 'react-native-unistyles';
 import { FONT_FAMILY } from '../utils/utils';
 
-/* ===================== ICON MAP ===================== */
 
 const ICONS: Record<string, any> = {
     Home: require('../assets/images/BottomTabs/home.png'),
@@ -116,8 +115,8 @@ const styles = StyleSheet.create(theme => ({
     container: {
         flexDirection: 'row',
         backgroundColor: theme?.colors?.bottomTabBackground ?? '#fff',
-        borderTopWidth: 3,
-        borderTopColor: '#CC9B18',
+        // borderTopWidth: 3,
+        // borderTopColor: '#CC9B18',
     },
 
     tabItem: {

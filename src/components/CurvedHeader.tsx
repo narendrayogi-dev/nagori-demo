@@ -21,7 +21,7 @@ const SCREEN_WIDTH = UnistylesRuntime.screen.width;
 const CurvedHeader = ({
   height = UnistylesRuntime.screen.height * 0.3,
   curveDepth = 80,
-  colors = ['#F7F3E9', '#CC9B18'],
+  colors = ['#F7F3E9', '#EBD398'],
   children,
 }: CurvedHeaderProps) => {
   const { top } = useInsets();

@@ -23,6 +23,7 @@ export const IMAGES = {
   star:require('../assets/images/star.png'), 
   sort:require('../assets/images/sort.png'), 
   filter:require('../assets/images/filter1.png'), 
+  ring:require('../assets/images/ring.png'), 
 };
 
 export const FONT_FAMILY = {
