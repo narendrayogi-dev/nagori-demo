@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Gordita-Black.otf",
+      "sha1": "21035af0f261c32846702297160e3de813498e0d"
+    },
+    {
+      "path": "assets/fonts/Gordita-BlackItalic.otf",
+      "sha1": "b49df6d36602a98c974b681b6219b0c504e0dfa0"
+    },
+    {
+      "path": "assets/fonts/Gordita-Bold.otf",
+      "sha1": "af8c77fe8c8b11fdaa96932fcbf6d9a1327b505d"
+    },
+    {
+      "path": "assets/fonts/Gordita-BoldItalic.otf",
+      "sha1": "7fcae6ffe47af1022ddde3a7338e892d54f9f5a9"
+    },
+    {
+      "path": "assets/fonts/Gordita-Light.otf",
+      "sha1": "925365d3e65f14f74712706aa29286ef0a9e8274"
+    },
+    {
+      "path": "assets/fonts/Gordita-LightItalic.otf",
+      "sha1": "d2a53656b6c742cbb13f7724b32c4c03cbc671ce"
+    },
+    {
+      "path": "assets/fonts/Gordita-Medium.otf",
+      "sha1": "08ddd7a722c14476412a693c8e76254102db8fcd"
+    },
+    {
+      "path": "assets/fonts/Gordita-MediumItalic.otf",
+      "sha1": "0557d4c8c2d6d279157702ad928fc57fb58de40c"
+    },
+    {
+      "path": "assets/fonts/Gordita-Regular.otf",
+      "sha1": "4180ceaaf5b38e3c554a33c3fee07a7b421e1b8c"
+    },
+    {
+      "path": "assets/fonts/Gordita-RegularItalic.otf",
+      "sha1": "2337afbed84c134c65820567d8eaa9ccbd7e535f"
+    },
+    {
+      "path": "assets/fonts/Mogra-Regular.ttf",
+      "sha1": "b3bc3a6cfa93d0f92fd5a22e7ded0a3f4f5ab6ff"
+    }
+  ]
+}
