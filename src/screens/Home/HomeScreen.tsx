@@ -4,6 +4,7 @@ import {
     FlatList,
     Image,
     ListRenderItem,
+    RefreshControl,
     ScrollView,
     StyleSheet,
     Text,
@@ -112,6 +113,21 @@ const HomeScreen = () => {
     const isMale = category === 'male';
     const isFemale = category === 'female';
 
+    const [refreshing, setRefreshing] = useState(false)
+
+
+    const handleRefresh = (() => {
+        setRefreshing(true)
+        try {
+
+            setTimeout(() => {
+                setRefreshing(false)
+            }, 3000)
+        } catch (error) {
+            setRefreshing(false)
+        }
+    })
+
 
 
 
@@ -201,7 +217,15 @@ const HomeScreen = () => {
                 }
             />
 
-            <ScrollView>
+            <ScrollView
+                refreshControl={
+                    <RefreshControl
+                        refreshing={refreshing}
+                        onRefresh={handleRefresh}
+
+                    />
+                }
+            >
                 <AppCarousel data={banners} />
 
 
