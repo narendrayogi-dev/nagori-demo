@@ -9,19 +9,20 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-nagauri.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-nagauri.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B10F48E0B50346BAA270DFE5 /* Gordita-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */; };
-		5A1B9ECC546F418C9B7D439C /* Gordita-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */; };
-		62DCF0E552ED41ECA94A512D /* Gordita-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6496A289B66341C2940CAA4B /* Gordita-Bold.otf */; };
-		9EA3A5ACE02D468CBFADC66A /* Gordita-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */; };
-		C5487FEE78864C639733EC12 /* Gordita-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */; };
-		F4737CE47A28478B946B52ED /* Gordita-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */; };
+		30C7077945714655A7214E44 /* Mogra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */; };
 		43CB9DB3E19B4F988D7FF681 /* Gordita-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */; };
 		59CA51A041CB44AA960069BF /* Gordita-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */; };
+		5A1B9ECC546F418C9B7D439C /* Gordita-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */; };
+		62DCF0E552ED41ECA94A512D /* Gordita-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6496A289B66341C2940CAA4B /* Gordita-Bold.otf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9EA3A5ACE02D468CBFADC66A /* Gordita-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */; };
+		A2C8E400D06548CAC7B3C773 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		B10F48E0B50346BAA270DFE5 /* Gordita-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */; };
 		B3F8B27C8FBF410084822233 /* Gordita-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 32DA27206A2342B38E16A48C /* Gordita-Regular.otf */; };
+		C5487FEE78864C639733EC12 /* Gordita-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */; };
 		CBDE7E5D99E0483A8788F8CF /* Gordita-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */; };
-		30C7077945714655A7214E44 /* Mogra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */; };
+		F4737CE47A28478B946B52ED /* Gordita-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,23 +30,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nagauri/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nagauri/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = nagauri/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-MediumItalic.otf"; path = "../assets/fonts/Gordita-MediumItalic.otf"; sourceTree = "<group>"; };
+		32DA27206A2342B38E16A48C /* Gordita-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Regular.otf"; path = "../assets/fonts/Gordita-Regular.otf"; sourceTree = "<group>"; };
+		3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mogra-Regular.ttf"; path = "../assets/fonts/Mogra-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-nagauri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nagauri.debug.xcconfig"; path = "Target Support Files/Pods-nagauri/Pods-nagauri.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-nagauri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nagauri.release.xcconfig"; path = "Target Support Files/Pods-nagauri/Pods-nagauri.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-nagauri.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nagauri.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6496A289B66341C2940CAA4B /* Gordita-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Bold.otf"; path = "../assets/fonts/Gordita-Bold.otf"; sourceTree = "<group>"; };
+		660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-BlackItalic.otf"; path = "../assets/fonts/Gordita-BlackItalic.otf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = nagauri/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nagauri/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Black.otf"; path = "../assets/fonts/Gordita-Black.otf"; sourceTree = "<group>"; };
+		A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-BoldItalic.otf"; path = "../assets/fonts/Gordita-BoldItalic.otf"; sourceTree = "<group>"; };
+		B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-RegularItalic.otf"; path = "../assets/fonts/Gordita-RegularItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */ = {isa = PBXFileReference; name = "Gordita-Black.otf"; path = "../assets/fonts/Gordita-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BlackItalic.otf"; path = "../assets/fonts/Gordita-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6496A289B66341C2940CAA4B /* Gordita-Bold.otf */ = {isa = PBXFileReference; name = "Gordita-Bold.otf"; path = "../assets/fonts/Gordita-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A9854DB6C9D74C858E9764EA /* Gordita-BoldItalic.otf */ = {isa = PBXFileReference; name = "Gordita-BoldItalic.otf"; path = "../assets/fonts/Gordita-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */ = {isa = PBXFileReference; name = "Gordita-Light.otf"; path = "../assets/fonts/Gordita-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */ = {isa = PBXFileReference; name = "Gordita-LightItalic.otf"; path = "../assets/fonts/Gordita-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */ = {isa = PBXFileReference; name = "Gordita-Medium.otf"; path = "../assets/fonts/Gordita-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2FC6873F44AD47B6AE6547E4 /* Gordita-MediumItalic.otf */ = {isa = PBXFileReference; name = "Gordita-MediumItalic.otf"; path = "../assets/fonts/Gordita-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		32DA27206A2342B38E16A48C /* Gordita-Regular.otf */ = {isa = PBXFileReference; name = "Gordita-Regular.otf"; path = "../assets/fonts/Gordita-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B16921E91DDC40A18B098AE0 /* Gordita-RegularItalic.otf */ = {isa = PBXFileReference; name = "Gordita-RegularItalic.otf"; path = "../assets/fonts/Gordita-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3B42161CA976439CA098AF19 /* Mogra-Regular.ttf */ = {isa = PBXFileReference; name = "Mogra-Regular.ttf"; path = "../assets/fonts/Mogra-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE783EBE414E4F368A2B63C0 /* Gordita-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Medium.otf"; path = "../assets/fonts/Gordita-Medium.otf"; sourceTree = "<group>"; };
+		F4F8F5A3775A43BF8C8DC6B8 /* Gordita-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-LightItalic.otf"; path = "../assets/fonts/Gordita-LightItalic.otf"; sourceTree = "<group>"; };
+		F9DBEAB6661F4BFEA219BEDF /* Gordita-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gordita-Light.otf"; path = "../assets/fonts/Gordita-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,17 +112,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-nagauri.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-nagauri.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		BA454C2C2925488386041392 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				9A57CA0D88CF46A893352C6B /* Gordita-Black.otf */,
 				660860CDB3D64A2D8DC8F819 /* Gordita-BlackItalic.otf */,
@@ -137,7 +129,15 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-nagauri.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-nagauri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -212,6 +212,7 @@
 				B3F8B27C8FBF410084822233 /* Gordita-Regular.otf in Resources */,
 				CBDE7E5D99E0483A8788F8CF /* Gordita-RegularItalic.otf in Resources */,
 				30C7077945714655A7214E44 /* Mogra-Regular.ttf in Resources */,
+				A2C8E400D06548CAC7B3C773 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nagauri/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +327,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = nagauri;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -340,7 +346,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = nagauri/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,7 +359,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = nagauri;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -419,6 +430,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -427,7 +439,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -484,6 +499,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -492,7 +508,9 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
