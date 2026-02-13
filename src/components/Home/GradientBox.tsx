@@ -52,14 +52,14 @@ const GradientBox: React.FC<GradientBoxProps> = ({
         scale.value = withTiming(1);
         opacity.value = withTiming(1, { duration: 120 });
       }}
-      style={animatedStyle}
+      style={[
+        {
+          // backgroundColor: 'red',
+        },
+        animatedStyle,
+      ]}
     >
-      <LinearGradient
-        colors={colors}
-        start={start}
-        end={end}
-        style={style}
-      >
+      <LinearGradient colors={colors} start={start} end={end} style={style}>
         {children}
       </LinearGradient>
     </AnimatedPressable>
